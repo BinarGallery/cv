@@ -1,90 +1,74 @@
-<!DOCTYPE html>
-<!--definisi dari HTML 5-->
 <html lang="en">
-    <!--html: root website-->
 <head>
-    <!--menyimpan meta-meta dan informasi yang terkait dengan website tp tidak ditampilkan di user-->
     <meta charset="UTF-8">
-    <!--UTF-8: web ini memakai karakter dari UTF-8-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--meta viewport: digunakan untuk tampilan responsif sehingga halaman akan menyesuaikan device yg digunakan oleh user yg megakses mll hp/desktop-->
     <title>Binar Kurnia Sari</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="https://scontent.fjog4-1.fna.fbcdn.net/v/t1.0-9/16806709_259272191163289_7522259397684606511_n.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=-nuqfQXD8CIAX-yi28x&_nc_oc=AQmC3imR-udus2aiml-Byh5ttwJdbjjM_tTEOlCEKhPReLNo_PwXnyyU91wsHOfsxwg&_nc_ht=scontent.fjog4-1.fna&oh=82db6ace7ab04915edae53c278dfa2ab&oe=5F9B44B7" alt="Binar Gallery" target="_blank">
-                <br>
-                <img src="ydpa.png" alt="YDPA"></td>
-                <!-- src: source, sumber dimana gambar di ambil | alt: alternative text, text yg akan ditampilkan jika gambar tidak bisa di load-->
-            </td>
-            <td>
-                <h1>Binar Kurnia Sari</h1>
-                <p>Saya adalah seseorang yang <b>sedang belajar HTML</b> dari <strong>Skydu Academy</strong></p>
-                <p>Di waktu luang saya suka merenung</p>
-            </td>
-        </tr> 
-    </table>
-        <!--
-        <strong>: menunjukkan kalau isinya penting, serius, atau urgensi yang kuat, C: Sebelum makan, 'Jangan Lupa' cuci tangan!
-        <b>: hanya untuk menarik perhatian pembaca, C: Saya pernah bekerja di 'Perusahaan XYZ'
-        <em>: menandai penekanan pada text, C: tolong 'jangan' buang sampah di situ
-        <i>: menandai serangkaian text yang berbeda dari text dormal karena berupa idiom/istilah teknis dll, C: beberapa orang merasa 'insecure' dengan kehadiran dia
+    <div class="wrapper">
+    <div class="section">
+      <img class="foto-profil" src="img/foto.png" alt="fotoku-img"> 
+      <img id="attribute" src="img/attribute.png" alt="attribut-img">    
         
-        *penggunaan tag2 tsb, berpengaruh pada saat styling (css). Recomended: <strong> untuk Bold, <em> untuk Italic
+        <!-- 
+            div,digunakan untuk mengelompokkan dan memisahkan layout
+            dan hanya bisa berguna jika di styling pakai css
         -->
-    <hr />
-    <h3>Buku Favorit</h3>
     
-    <ul>
-        <!--a: anchor, href: menuju link-->
-        <li> <a href="https://reedsy.com/discovery/blog/harry-potter-books-in-order"target="_blank"> Harry Potter </a>by J.K. Rowling</li>
-        <li><a href="https://www.narnia.com/us/" target="_blank">The Cronicles of Narnia</a> by C.S. Lewis</li>
-        <li>By Andrea Hirata</li>
-        <ul>
-            <li><a href="https://books.google.co.id/books?id=S0ZNe2iqM54C&printsec=frontcover&hl=id#v=onepage&q&f=false" target="_blank">Laskar Pelangi</a></li>
-            <li><a href="https://books.google.co.id/books?id=FQ_xml4y71EC&printsec=frontcover&dq=sang+pemimpi&hl=en&sa=X&ved=2ahUKEwiLwLCRvpDsAhUlH7cAHc5tAesQ6AEwAHoECAQQAg#v=onepage&q=sang%20pemimpi&f=false" target="_blank">Sang Pemimpi</a></li>
-        </ul>
-    </ul>
-    <h3>Hoby</h3>
-    <ol>
-        <li>Menonton Film</li>
-        <li>Membaca Novel/Buku</li>
-        <li>Mendengarkan Kisah</li>
-    </ol>
+    <div class="intro"> 
+      
+        <span class="title">Hi, Saya Binar</span>
+        <h2>Front-End Developer</h2>
+        <p>
+            Halo, nama saya Binar. Saya seorang IT Support dengan Preferensi Desain Grafis. Saat waktu luang ada banyak hal yang ingin saya lakukan, seperti membaca, menulis, menggambar, membuat kerajinan tangan, berolahraga, menanam bunga, dan menonton drama.
+        </p>
+        <a class="btn" href="mailto:yourmail@gmail.com">Email me!</a>
+    </div>
+  </div>
+    <div class="section">
+        <h1>Apa yang bisa saya lakukan?</h1>
+        <div class="skill-row">
+          <img class="ux-skill-img" src="img/image1.png" alt="" />
+          <h2 class="text-ui">UI/UX Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Montes nascetur ridiculus mus mauris vitae. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Egestas dui id ornare arcu odio ut sem nulla. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+          </p>
+      
+        </div>
+        <div class="skill-row">
+          <img class="web-skill-img" src="img/image2.png" alt="" />
+          <h2>Frontend Web Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Montes nascetur ridiculus mus mauris vitae. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Egestas dui id ornare arcu odio ut sem nulla. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+          </p>
+        </div>
+      </div>
     
-    <h3><a href="contact-me.html">Contact Me!</a></h3>
-    <hr />
-    <h3>Riwayat Pekerjaan</h3>
-    <!--dokumentasi: html table mdn
-    thead: untuk memberi table header
-    tr: table row, baris
-    td: table data, kolom
-    tbody: table body, untuk badan tabel
-    tfoot: digunakan untuk tabel penjumlahan
-    -->
-    <table>
-        <thead>
-            <tr>
-                <td>Tahun</td>
-                <td>Aktivitas</td>
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>2018 - now</td>
-            <td>Staf IT</td>
-        </tr>
-        <tr>
-            <td>2017 - 2018</td>
-            <td>Mengajar</td>
-        </tr>
-        <tr>
-            <td>2016 - 2017</td>
-            <td>Staff Administrasi</td>
-        </tr>
-        </tbody>
-    </table>
+      <div class="section">
+        <h1>Saya bisa bantu!</h1>
+        <p class="cta-text">
+          Ada kebutuhan desain/pengembangan web untuk proyek selanjutnya? Atau
+          sekedar minum kopi bareng di kedai kekinian? Yuk ngobrol!
+          <br>
+          <br>
+          <a class="btn" href="mailto:youremail@gmail.com">Email Me!</a>
+        </p>
+        
+      </div>
+    </div> <!-- akhir dari div wrapper -->
+    
+    <div class="footer">
+      <a class="social-links" href="instagram.com/binargallery/?hl=en">Instagram</a>
+      <a class="social-links" href="www.facebook.com">Facebook</a>
+      <a class="social-links" href="www.linkedin.com">Linkedin</a>
+      <p >
+        &#169;2020 Binar Kurnia. Illustration provided by
+        <a class="footer-text" href="binargallery.com">BinarGallery</a>
+      </p>
+    </div>
+    
 </body>
 </html>
