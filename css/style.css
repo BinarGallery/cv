@@ -1,0 +1,113 @@
+body{
+    
+    background-color: #222831;
+    color: #eeeeee;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2{
+    color: #00adb5;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    padding-top: 200px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.section{
+    
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/*Section 1*/
+
+.intro{
+    text-align: left;
+}
+
+.foto-profil{
+    float: right;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+
+
+.ux-skill-img{
+    float: left;
+    margin-right: 30px;
+
+}
+
+.web-skill-img{
+    float: right;
+    margin-left: 30px;
+
+}
+
+.skill-row{
+    margin-bottom: 100px;
+}
+
+.cta-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #00adb5;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+.title{
+    /*1 em = 16px, rem=root em*/
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: "Caveat",cursive;
+    display: block;
+}
+#attribute{
+    position: absolute;
+    left: 240px;
+    top: 120px;
+}
+
+
+.footer{
+    padding-top: 30px;
+    background-color: #393e46;
+    padding-bottom: 20px;
+}
+
+.social-links{
+    padding-top: 10px;
+    color: #00adb5;
+    font-weight: bold;
+    margin: auto 10px auto 10px;
+}
+
+.footer-text{
+    text-decoration: none;
+    color: #00adb5;
+    font-weight: bold;
+
+}
+
+
